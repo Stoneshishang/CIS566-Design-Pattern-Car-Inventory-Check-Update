@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Car Dealer Inventory</title>
+</head>
+
+<body>
+  <h1 style="font-weight: bold;">Car Dealer Inventory Check GUI</h1>
+  <h3>Dealer Login</h3>
+  <form class="dealerLogIn" action="index.html" method="post">
+    <input type="email" name="username" placeholder="Username" required>
+    <input type="password" name="password" placeholder="Password" required>
+    <button type="submit"> Dealer Sign In</button>
+  </form>
+
+  <h3>Customer Look Up</h3>
+  <form class="CustomerLookUp" action="index.html" method="post">
+    <p>
+      <label for="price">Price:</label>
+      <input type="price" name="price" placeholder="price">
+    </p>
+    <p>
+      <label for="condition">Condition:</label>
+      <input type="condition" name="condition" placeholder="condition">
+    </p>
+    <p>
+      <label for="year">Year:</label>
+      <input type="year" name="year" placeholder="year">
+    </p>
+    <p>
+      <label for="maker">Maker:</label>
+      <input type="maker" name="maker" placeholder="maker">
+    </p>
+    <p>
+      <label>Color:</label>
+      <input type="string" name="color" placeholder="color">
+    </p>
+    <p>
+      <label for="model">Model:</label>
+      <input type="model" name="model" placeholder="model">
+    </p>
+    <p>
+      <label for="millage">Millage:</label>
+      <input type="millage" name="millage" placeholder="millage">
+    </p>
+    <p>
+      <button type="submit">Avalibility Check</button>
+    </p>
+  </form>
+
+<script src = "app.js" charset="utf-8">
+
+</script>
+</body>
+
+</html>
